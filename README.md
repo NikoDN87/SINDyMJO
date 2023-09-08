@@ -4,7 +4,7 @@ Implementation of Sparse Identification fo Nonlinear Dynamics Method for Madden-
 SINDyMJO.R is and R script code in which the method Sparse Identification fo Nonlinear Dynamics is implemented in order to infer two dimensional models of the Madden-Julian Oscillation.
 The code uses OMI or RMM principal components as input data -- other simmilar indexes can be easly introduced.
 The main idea of the code is to:
-  1. Select random data of the MJO
+  1. Randomly select MJO data
   2. Apply SINDy (sequentially thresholded least square) to model the selected data
   3. Select models according to Akaike Information Criterion
 
